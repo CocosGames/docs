@@ -194,7 +194,7 @@ await matchMaker.remoteRoomCall("xxxxxxxxx", "lock");
 只暴露 "join", "joinById", 和 "reconnect" 方法.
 
 ```typescript
-import { matchmaker } from "colyseus;
+import { matchmaker } from "colyseus";
 
 matchMaker.controller.exposedMethods = ['join', 'joinById', 'reconnect'];
 ```
